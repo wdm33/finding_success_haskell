@@ -29,3 +29,26 @@ validateUsernamePassword username password =
 
 
 
+safeTail :: [a] -> Maybe [a]
+safeTail maybe x = 
+  Nothing -> putStrLn "nice error" 
+  Just x -> x
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
